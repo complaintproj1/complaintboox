@@ -1,5 +1,6 @@
 {
-    "version":"complaintserver",
+    "version":2,
+    "name":"complaintserver",
     "builds":[{"src": "server.js", "use":"@vercel/node"}],
     "routes":[{"src": "/(.*)", "dest":"/server.js"}]
     
